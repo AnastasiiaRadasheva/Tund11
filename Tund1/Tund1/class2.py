@@ -1,34 +1,36 @@
 from math import *
 print("Ruudu karakteristikud")
-a = int(input('Sisesta ruudu külje pikkus => '))  # Külje pikkus sisestatakse täisarvuna
-if a<0:
-    print('number väiksem kui null')
-else:
-    S = a**2
-    print("Ruudu pindala", S)
-    P = 4 * a
-    print("Ruudu ümbermõõt", P)
-
-di = a * sqrt(2)  # Diagonaali arvutamine ruudu külje pikkuse järgi
+try:
+    a = int(input('Sisesta ruudu kÃ¼lje pikkus => '))  # KÃ¼lje pikkus sisestatakse tÃ¤isarvuna
+    if a<0:
+            print('number vÃ¤iksem kui null')
+    else:
+         S = a**2
+         print("Ruudu pindala", S)
+         P = 4 * a
+         print("Ruudu Ã¼mbermÃµÃµt", P)
+except:
+    print('ploxo')
+di = a * sqrt(2)  # Diagonaali arvutamine ruudu kÃ¼lje pikkuse jÃ¤rgi
 print("Ruudu diagonaal", round(di, 2))
 print()
 
-print("Ristküliku karakteristikud")
-b = int(input("Sisesta ristküliku 1. külje pikkus => "))  # Esimese külje pikkus täisarvuna
-c = int(input("Sisesta ristküliku 2. külje pikkus => "))  # Teise külje pikkus täisarvuna
+print("RistkÃ¼liku karakteristikud")
+b = int(input("Sisesta ristkÃ¼liku 1. kÃ¼lje pikkus => "))  # Esimese kÃ¼lje pikkus tÃ¤isarvuna
+c = int(input("Sisesta ristkÃ¼liku 2. kÃ¼lje pikkus => "))  # Teise kÃ¼lje pikkus tÃ¤isarvuna
 S = b * c
-print("Ristküliku pindala", S)
+print("RistkÃ¼liku pindala", S)
 P = 2 * (b + c)  # Perimeetri arvutamine
-print("Ristküliku ümbermõõt", P)
+print("RistkÃ¼liku Ã¼mbermÃµÃµt", P)
 di = sqrt(b**2 + c**2)  # Diagonaali arvutamine Pythagorase teoreemi abil
-print("Ristküliku diagonaal", round(di, 2))
+print("RistkÃ¼liku diagonaal", round(di, 2))
 print()
 
 print("Ringi karakteristikud")
 r = float(input("Sisesta ringi raadiusi pikkus => "))  # Raadiuse pikkus reaalarvuna
-d = 2 * r  # Läbimõõdu arvutamine
-print("Ringi läbimõõt", d)
-S = pi * r**2  # Pindala arvutamine valemi järgi
+d = 2 * r  # LÃ¤bimÃµÃµdu arvutamine
+print("Ringi lÃ¤bimÃµÃµt", d)
+S = pi * r**2  # Pindala arvutamine valemi jÃ¤rgi
 print("Ringi pindala", round(S))
 C = 2 * pi * r  # Ringjoone pikkuse arvutamine
 print("Ringjoone pikkus", round(C))

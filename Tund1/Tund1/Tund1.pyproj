@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>156b3811-bdf1-42bd-9984-2d4e9051a087</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund1.py</StartupFile>
+    <StartupFile>class2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

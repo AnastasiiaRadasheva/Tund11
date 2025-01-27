@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "dz", "dz\dz.pyproj", "{BED1677A-927A-4085-8093-B3E591096153}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +18,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{156B3811-BDF1-42BD-9984-2D4E9051A087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{156B3811-BDF1-42BD-9984-2D4E9051A087}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BED1677A-927A-4085-8093-B3E591096153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BED1677A-927A-4085-8093-B3E591096153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
