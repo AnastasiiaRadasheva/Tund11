@@ -8,14 +8,14 @@ print("   ^^ "" ^^  ")
 from math import *
 puu_umbermoot= float(input("kirjuta puu umbermoot: "))
 labimoot= math.sqrt(puu_umbermoot / pi)
-print("puu läbimõõt on",labimoot , "meetrit.")
+print(f"puu lÃ¤bimÃµÃµt on",{labimoot}, "meetrit.")
 
 #5 ulesanne
 from math import *
 n=float(input("maatukki pikkus: "))
 m=float(input("maatukki laius: "))
 diagonaal=n**2+m**2
-print("maatukki diagonaal on", diagonaal, "meetrit" )
+print(f"maatukki diagonaal on", {diagonaal}, "meetrit" )
 
 #3
 from random import *
@@ -41,32 +41,32 @@ print(type(pikus))
 print(type(kas_kaib_koolis))
 
 # #6 ulesanne
-aeg = float(input("Mitu tundi kulus sõiduks? "))
-teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+aeg = float(input("Mitu tundi kulus sÃµiduks? "))
+teepikkus = float(input("Mitu kilomeetrit sÃµitsid? "))
 kiirus = teepikkus / aeg
 print("Sinu kiirus oli " + str(kiirus) + " km/h")
 
 
 # #9 ulesanne
-a=int(input(" kolmnurga külg a: "))
-b=int(input(" kolmnurga külg b: "))
-c=int(input(" kolmnurga külg c: "))
+a=int(input(" kolmnurga kÃ¼lg a: "))
+b=int(input(" kolmnurga kÃ¼lg b: "))
+c=int(input(" kolmnurga kÃ¼lg c: "))
 umbermoot=a+b+c
-print("kolmnurga ümbermõõt on", umbermoot)
+print("kolmnurga Ã¼mbermÃµÃµt on", umbermoot)
 
 # #10 ulesanne
 pitsa_hind=12.90
 jootraha=0.10 * pitsa_hind
 
-sobrad=int(input("kui palju inimest söövad pitsat?: "))
+sobrad=int(input("kui palju inimest sÃ¶Ã¶vad pitsat?: "))
 maksma= (pitsa_hind + jootraha) / sobrad
-print("igauks peab maksma", maksma, "€")
+print("igauks peab maksma", maksma, "â‚¬")
 #7
-print("Sisesta 5 täisarvu:")
+print("Sisesta 5 tÃ¤isarvu:")
 arv1 = int(input("Esimene arv: "))
 arv2 = int(input("Teine arv: "))
 arv3 = int(input("Kolmas arv: "))
 arv4 = int(input("Neljas arv: "))
 arv5 = int(input("Viies arv: "))
-arvss=(arv1+arv2+arv3+arv4+arv5)´/5
+arvss=(arv1+arv2+arv3+arv4+arv5)/5
 print(arvss)

@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>156b3811-bdf1-42bd-9984-2d4e9051a087</ProjectGuid>
+    <ProjectGuid>bed1677a-927a-4085-8093-b3e591096153</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund1.py</StartupFile>
+    <StartupFile>dz.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Tund1</Name>
-    <RootNamespace>Tund1</RootNamespace>
+    <Name>dz</Name>
+    <RootNamespace>dz</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,9 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="class1.py" />
-    <Compile Include="class2.py" />
-    <Compile Include="Tund1.py" />
+    <Compile Include="dz.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
